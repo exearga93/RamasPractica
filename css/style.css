@@ -25,3 +25,17 @@ object-fit: cover;
     padding-top: 100px;
     border-top: solid gray 1px;
 }
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
+}
+.footer{
+    border-top: 2px gray solid;
+    padding-top: 75px;
+
+}
